@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xal="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>WiGLE_Upload-20230826-00321</name>
+        <Style id="highConfidence">
+            <IconStyle id="highConfidenceStyle">
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/green.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="mediumConfidence">
+            <IconStyle id="medConfidenceStyle">
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/yellow.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="lowConfidence">
+            <IconStyle id="lowConfidenceStyle">
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/red.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="zeroConfidence">
+            <IconStyle id="zeroConfidenceStyle">
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="bluetoothClassic">
+            <IconStyle id="bluetoothClassicStyle">
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/blue.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="bluetoothLe">
+            <IconStyle id="bluetoothLeStyle">
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/lightblue.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="cell">
+            <IconStyle id="cellStyle">
+                <scale>1.0</scale>
+                <heading>0.0</heading>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/ms/icons/pink.png</href>
+                    <refreshInterval>0.0</refreshInterval>
+                    <viewRefreshTime>0.0</viewRefreshTime>
+                    <viewBoundScale>0.0</viewBoundScale>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Folder>
+            <name>Wifi Networks</name>
+        </Folder>
+        <Folder>
+            <name>Cellular Networks</name>
+            <Placemark>
+                <name></name>
+                <open>1</open>
+                <description>Network ID: 33403_5416_35916548
+Time: 2023-08-26T10:58:50.000-07:00
+Signal: -113.0
+Accuracy: 2.7
+Type: GSM</description>
+                <styleUrl>#cell</styleUrl>
+                <Point>
+                    <coordinates>-103.6918869,20.70967484</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name></name>
+                <open>1</open>
+                <description>Network ID: 33403_5416_35916565
+Time: 2023-08-26T10:58:51.000-07:00
+Signal: -113.0
+Accuracy: 2.8
+Type: GSM</description>
+                <styleUrl>#cell</styleUrl>
+                <Point>
+                    <coordinates>-103.69189453,20.70966721</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>AT&amp;T Mexico</name>
+                <open>1</open>
+                <description>Network ID: 334090_5416_35916565
+Time: 2023-08-26T10:58:51.000-07:00
+Signal: -110.0
+Accuracy: 2.8
+Type: LTE</description>
+                <styleUrl>#cell</styleUrl>
+                <Point>
+                    <coordinates>-103.69189453,20.70966721</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder>
+            <name>Bluetooth Networks</name>
+            <Placemark>
+                <name>(no SSID)</name>
+                <open>1</open>
+                <description>Network ID: 0C:B5:27:08:0B:A4
+Time: 2023-08-26T11:07:06.000-07:00
+Signal: -100.0
+Accuracy: 2.0
+Type: BT
+Attributes: Smartphone;10</description>
+                <styleUrl>#bluetoothClassic</styleUrl>
+                <Point>
+                    <coordinates>-103.69185638,20.70975304</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>(no SSID)</name>
+                <open>1</open>
+                <description>Network ID: 40:69:D7:45:7D:DD
+Time: 2023-08-26T11:00:05.000-07:00
+Signal: -88.0
+Accuracy: 2.9
+Type: BT
+Attributes: Uncategorized;10</description>
+                <styleUrl>#bluetoothClassic</styleUrl>
+                <Point>
+                    <coordinates>-103.69189453,20.70972061</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>

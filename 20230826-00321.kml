@@ -101,7 +101,7 @@ Accuracy: 2.7
 Type: GSM</description>
                 <styleUrl>#cell</styleUrl>
                 <Point>
-                    <coordinates>-103.6918869,20.70967484</coordinates>
+                    <coordinates>20.7097563, -103.6918083</coordinates>
                 </Point>
             </Placemark>
             <Placemark>
@@ -114,7 +114,8 @@ Accuracy: 2.8
 Type: GSM</description>
                 <styleUrl>#cell</styleUrl>
                 <Point>
-                    <coordinates>-103.69189453,20.70966721</coordinates>
+                    <coordinates>20.7097563, -103.6918083
+                </coordinates>
                 </Point>
             </Placemark>
             <Placemark>
